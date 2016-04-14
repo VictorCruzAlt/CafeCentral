@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="@drawable/login_central"
+        android:fillViewport="true">
+
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="90dp">
+
+            <!--USERNAME LABEL-->
+            <EditText
+                android:id="@+id/user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:padding="10dp"
+                android:layout_marginTop="290dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginRight="55dp"
+                android:singleLine="true"
+                android:textColor="#ffffff"
+                android:textColorHint="#5e6266"
+                android:hint="@string/userHint"
+                android:background="@drawable/round_corner"/>
+
+            <!--PASSWORD LABEL-->
+            <EditText
+                android:id="@+id/passw"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:padding="10dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginRight="55dp"
+                android:singleLine="true"
+                android:textColor="#333333"
+                android:textColorHint="#5e6266"
+                android:inputType="textPassword"
+                android:background="@drawable/round_corner"
+                android:hint="@string/passwHint"/>
+
+            <!--LOGIN BUTTON-->
+            <Button
+                android:id="@+id/loginButton"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:textColor="#FFFFFF"
+                android:layout_marginLeft="55dp"
+                android:layout_marginRight="55dp"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:background="@drawable/button_login"
+                android:text="@string/loginButton"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

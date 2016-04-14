@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Cafè Central</string>
+    <string name="userHint">Usuario</string>
+    <string name="passwHint">Contraseña</string>
+    <string name="loginButton">Entrar</string>
+    <string name="orderButton">TOMAR NOTA</string>
+    <string name="payButton">GESTIÓN DE CUENTAS</string>
+    <string name="settingsButton">AJUSTES</string>
+</resources>
